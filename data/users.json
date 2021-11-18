@@ -1,1 +1,20 @@
-[]
+[
+    {
+        "firstName": "narongrit",
+        "lastName": "gulnaphim",
+        "username": "macmacmac",
+        "hash": "$2a$10$JcWMQN5ZXaBCt3oytlSlUezGkcN9vuAEREakH86Su37lr2tQt6sxK",
+        "id": 1,
+        "dateCreated": "2021-11-18T19:42:49.370Z",
+        "dateUpdated": "2021-11-18T19:42:49.370Z"
+    },
+    {
+        "firstName": "naphaphon",
+        "lastName": "gulnaphim",
+        "username": "222",
+        "hash": "$2a$10$jc1uV.GN0NLKNJR5znJxK.I8UtsGu36eELhtFka4Hctuaan4RsWvK",
+        "id": 2,
+        "dateCreated": "2021-11-18T19:49:39.537Z",
+        "dateUpdated": "2021-11-18T19:49:39.537Z"
+    }
+]
