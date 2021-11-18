@@ -1,14 +1,9 @@
 a { cursor: pointer; }
 
 .app-container {
-    min-height: 100vh;
-
+        min-height: 100vh;
         background-image: url("https://image.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg");
-      
-        /* Full height */
         height: 100%; 
-      
-        /* Center and scale the image nicely */
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
