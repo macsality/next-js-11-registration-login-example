@@ -44,10 +44,19 @@
         "line": "",
         "din": "",
         "credit": "",
-        "hash": "$2a$10$Bo9Zq1p2QKtOINIVWYj53u8dIj6e5moPPJif8Os6ZiBrpXm4v5RKC",
+        "hash": "$2a$10$m2uCo5Y70HY6.TPTRdX1COW/Te2ez45CXrEtlP4rDQjSBe29LaPYK",
         "id": 6,
         "dateCreated": "2021-11-19T05:28:11.723Z",
         "dateUpdated": "2021-11-19T05:28:11.723Z",
         "role": "Admin"
+    },
+    {
+        "firstName": "naphaphon",
+        "lastName": "gulnaphim",
+        "username": "macmacmac",
+        "hash": "$2a$10$lmyNzf5eKegKIljP42NgyubVAxBiZqaaIiy7dMzAFsNR50P8ll8..",
+        "id": 7,
+        "dateCreated": "2021-11-19T06:28:50.560Z",
+        "dateUpdated": "2021-11-19T06:28:50.560Z"
     }
 ]
