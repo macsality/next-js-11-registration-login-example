@@ -115,8 +115,15 @@ function AddEdit(props) {
                 </div>
                 <div className="form-group col-1">
                     <label>สู้ฟรี</label>
-                    <input name="rate" type="text" {...register('rate')} className={`form-control ${errors.rate ? 'is-invalid' : ''}`} />
-                    <div className="invalid-feedback">{errors.email?.message}</div>
+                    <select name="rate" {...register('rate')} className={`form-control ${errors.rate ? 'is-invalid' : ''}`}>
+                        <option value=""></option>
+                        <option value="0.20">0.20</option>
+                        <option value="0.25">0.25</option>
+                        <option value="0.30">0.30</option>
+                        <option value="0.35">0.35</option>
+                        <option value="0.40">0.40</option>
+                        <option value="0.45">0.45</option>
+                    </select>
                 </div>
                 <div className="form-group col-3">
                     <label>Role</label>
@@ -144,7 +151,7 @@ function AddEdit(props) {
                 </div>
                 <div className="form-group col">
                     <label>วันที่สร้างuser</label>
-                    <input name="din" type="text" {...register('din')} className={`form-control ${errors.din ? 'is-invalid' : ''}`} />
+                    <input name="din" type="date"  format="dd-MM-yyyy" {...register('din')} className={`form-control ${errors.din ? 'is-invalid' : ''}`} />
                     <div className="invalid-feedback">{errors.email?.message}</div>
                 </div>
                 <div className="form-group col">
