@@ -98,8 +98,15 @@ function AddEdit(props) {
                 
                 <div className="form-group col-3">
                     <label>ธนาคาร</label>
-                    <input name="bank" type="text" {...register('bank')} className={`form-control ${errors.bank ? 'is-invalid' : ''}`} />
-                    <div className="invalid-feedback">{errors.email?.message}</div>
+                    <select name="bank" {...register('bank')} className={`form-control ${errors.bank ? 'is-invalid' : ''}`}>
+                        <option value=""></option>
+                        <option value="กสิกรไทย">กสิกรไทย</option>
+                        <option value="กรุงเทพ">กรุงเทพ</option>
+                        <option value="ไทยพาณิชย์">ไทยพาณิชย์</option>
+                        <option value="ทหารไทย">ทหารไทย</option>
+                        <option value="กรุงศรี">กรุงศรี</option>
+                        <option value="ออมสิน">ออมสิน</option>
+                    </select>
                 </div>
                 <div className="form-group col">
                     <label>เลขบัญชีธนาคาร</label>
@@ -113,8 +120,13 @@ function AddEdit(props) {
                 </div>
                 <div className="form-group col-3">
                     <label>Role</label>
-                    <input name="role" type="text" {...register('role')} className={`form-control ${errors.role ? 'is-invalid' : ''}`} />
-                    <div className="invalid-feedback">{errors.email?.message}</div>
+                    <select name="role" {...register('role')} className={`form-control ${errors.role ? 'is-invalid' : ''}`}>
+                        <option value=""></option>
+                        <option value="Admin">Admin</option>
+                        <option value="Master">Master</option>
+                        <option value="Agent">Agent</option>
+                        <option value="User">User</option>
+                    </select>
                 </div>
                 
             </div>

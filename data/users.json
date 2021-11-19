@@ -3,7 +3,7 @@
         "firstName": "ชยากร ชูชื่น",
         "username": "ufrcb05a6",
         "ref": "ufrcb05",
-        "bank": "ไทยพาณิชย์",
+        "bank": "ทหารไทย",
         "rate": "0.20",
         "acc": "4330208877",
         "tel": "0618967074",
@@ -13,7 +13,8 @@
         "hash": "$2a$10$E0KW0kKzmdjx00L3/M3pE.DWkxmW7fUuk0W4h0drSeyeEi74k8auy",
         "id": 4,
         "dateCreated": "2021-11-19T05:13:47.456Z",
-        "dateUpdated": "2021-11-19T05:13:47.456Z"
+        "dateUpdated": "2021-11-19T05:13:47.456Z",
+        "role": "Agent"
     },
     {
         "firstName": "พิชญะ วรโชติวงศานนท์",
@@ -29,7 +30,8 @@
         "hash": "$2a$10$3g4i3POwT59BIsm0bLkh3.voSoNdyMI40OasjO8ofoPOZ1ayVcTcu",
         "id": 5,
         "dateCreated": "2021-11-19T05:24:35.852Z",
-        "dateUpdated": "2021-11-19T05:24:35.852Z"
+        "dateUpdated": "2021-11-19T05:24:35.852Z",
+        "role": "User"
     },
     {
         "firstName": "naphaphon",
@@ -45,6 +47,7 @@
         "hash": "$2a$10$Bo9Zq1p2QKtOINIVWYj53u8dIj6e5moPPJif8Os6ZiBrpXm4v5RKC",
         "id": 6,
         "dateCreated": "2021-11-19T05:28:11.723Z",
-        "dateUpdated": "2021-11-19T05:28:11.723Z"
+        "dateUpdated": "2021-11-19T05:28:11.723Z",
+        "role": "Admin"
     }
 ]
